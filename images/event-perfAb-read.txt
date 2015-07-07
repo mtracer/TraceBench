@@ -1,0 +1,365 @@
+Events of Trace '6BDD115831929841'
+
+
+TraceID: 6BDD115831929841
+NID: 44E92FAD8667FA93
+OpName: getFileInfo
+StartTime: 3970908790663669
+EndTime: 3970908790860395
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@6c2e211])
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: RPC:getFileInfo
+StartTime: 2164113547872313
+EndTime: 2164113651154496
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@178210ca])
+
+
+TraceID: 6BDD115831929841
+NID: 86D26DEE22787216
+OpName: getFileInfo
+StartTime: 3970908899878355
+EndTime: 3970908900097632
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@6487cd8e])
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: RPC:getFileInfo
+StartTime: 2164113656788159
+EndTime: 2164113762914145
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@c9c0e5b])
+
+
+TraceID: 6BDD115831929841
+NID: 6A4F23746E3B6A92
+OpName: getFileInfo
+StartTime: 3970909017495345
+EndTime: 3970909017705719
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@2a57e9b6])
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: RPC:getFileInfo
+StartTime: 2164113774654927
+EndTime: 2164113879654086
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@48b6434f])
+
+
+TraceID: 6BDD115831929841
+NID: 7A48A3FA3D474645
+OpName: getFileInfo
+StartTime: 3970909122787994
+EndTime: 3970909123078644
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@b6c1c07])
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: RPC:getFileInfo
+StartTime: 2164113879832606
+EndTime: 2164113985479579
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@7c6fbdfc])
+
+
+TraceID: 6BDD115831929841
+NID: 1700CF5698CA1724
+OpName: getBlockLocations
+StartTime: 3970909230919913
+EndTime: 3970909231294299
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlocks,value=org.apache.hadoop.hdfs.protocol.LocatedBlocks@1e7a9a19])
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: RPC:getBlockLocations
+StartTime: 2164113988030208
+EndTime: 2164114094870503
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlocks,value=org.apache.hadoop.hdfs.protocol.LocatedBlocks@5502f00c])
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: bestNode
+StartTime: 2164114095609144
+EndTime: 2164114095623046
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: chosen bestNode = 10.107.100.93:50010 in nodes = 10.107.100.93:50010 10.107.100.68:50010 10.107.100.60:50010
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: chooseDataNode
+StartTime: 2164114095519939
+EndTime: 2164114095911713
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: chosenNode = /10.107.100.93:50010
+
+
+TraceID: 6BDD115831929841
+NID: 63D2BCAE0741604C
+OpName: OP: new blockSender
+StartTime: 778362879521231
+EndTime: 778362880402586
+HostAddress: 10.107.100.93
+HostName: datanode033
+Agent: Datanode
+Description: Success: return(OP_STATUS_SUCCESS)
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: newBlockReader
+StartTime: 2164114322414448
+EndTime: 2164114432906157
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: return a valid BlockReader
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: OP: try new BlockReader
+StartTime: 2164114096303461
+EndTime: 2164114433079527
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: chosenNode = 10.107.100.93:50010
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: blockSeekTo
+StartTime: 2164114095081060
+EndTime: 2164114433163486
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: chosenNode = 10.107.100.93:50010 for blk_-5596974342584343053_36802 of /user/hadoop/hdfsFile_2_blocks
+
+
+TraceID: 6BDD115831929841
+NID: 63D2BCAE0741604C
+OpName: sendBlock
+StartTime: 778362880510067
+EndTime: 778387724397173
+HostAddress: 10.107.100.93
+HostName: datanode033
+Agent: Datanode
+Description: Success: send blk_-5596974342584343053_36802
+
+
+TraceID: 6BDD115831929841
+NID: 43FA8F96F63F6605
+OpName: OP: receive block
+StartTime: 2164114433248070
+EndTime: 2164139469107553
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: received a block
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: checksumOk
+StartTime: 2164139469339312
+EndTime: 2164139469698944
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success:
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: bestNode
+StartTime: 2164139469941698
+EndTime: 2164139469956421
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: chosen bestNode = 10.107.100.94:50010 in nodes = 10.107.100.94:50010 10.107.100.85:50010 10.107.100.11:50010
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: chooseDataNode
+StartTime: 2164139469922303
+EndTime: 2164139470121862
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: chosenNode = /10.107.100.94:50010
+
+
+TraceID: 6BDD115831929841
+NID: 4115C0DEA2DE96DC
+OpName: verifiedByClient
+StartTime: 778388020869134
+EndTime: 778388020945516
+HostAddress: 10.107.100.93
+HostName: datanode033
+Agent: datanode
+Description: Success: blk_-5596974342584343053_36802 verified by client
+
+
+TraceID: 6BDD115831929841
+NID: 63D2BCAE0741604C
+OpName: readBlock
+StartTime: 778362879493742
+EndTime: 778388021088517
+HostAddress: 10.107.100.93
+HostName: datanode033
+Agent: Datanode
+Description: Success:
+
+
+TraceID: 6BDD115831929841
+NID: 117686F6B3F414E1
+OpName: OP: new blockSender
+StartTime: 778737541950729
+EndTime: 778737542961394
+HostAddress: 10.107.100.94
+HostName: datanode034
+Agent: Datanode
+Description: Success: return(OP_STATUS_SUCCESS)
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: newBlockReader
+StartTime: 2164139676703702
+EndTime: 2164139786629459
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: return a valid BlockReader
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: OP: try new BlockReader
+StartTime: 2164139470167178
+EndTime: 2164139786797230
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: chosenNode = 10.107.100.94:50010
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: blockSeekTo
+StartTime: 2164139469831933
+EndTime: 2164139786853851
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: chosenNode = 10.107.100.94:50010 for blk_-3503079912590147961_36802 of /user/hadoop/hdfsFile_2_blocks
+
+
+TraceID: 6BDD115831929841
+NID: 117686F6B3F414E1
+OpName: sendBlock
+StartTime: 778737543075742
+EndTime: 778745468703882
+HostAddress: 10.107.100.94
+HostName: datanode034
+Agent: Datanode
+Description: Success: send blk_-3503079912590147961_36802
+
+
+TraceID: 6BDD115831929841
+NID: EE333C4C97644566
+OpName: OP: receive block
+StartTime: 2164139786921322
+EndTime: 2164147885235065
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success: received a block
+
+
+TraceID: 6BDD115831929841
+NID: 118FDE651BDE97A8
+OpName: checksumOk
+StartTime: 2164147885333814
+EndTime: 2164147885593582
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: DFSClient
+Description: Success:
+
+
+TraceID: 6BDD115831929841
+NID: B902A2E6B8A48C31
+OpName: fs -copyToLocal
+StartTime: 2164113543773411
+EndTime: 2164147885930765
+HostAddress: 10.107.100.118
+HostName: client007
+Agent: User
+Description: A user Trace
+
+
+TraceID: 6BDD115831929841
+NID: 3220DA8713DA7601
+OpName: verifiedByClient
+StartTime: 778745745487738
+EndTime: 778745745577732
+HostAddress: 10.107.100.94
+HostName: datanode034
+Agent: datanode
+Description: Success: blk_-3503079912590147961_36802 verified by client
+
+
+TraceID: 6BDD115831929841
+NID: 117686F6B3F414E1
+OpName: readBlock
+StartTime: 778737541915600
+EndTime: 778745745723124
+HostAddress: 10.107.100.94
+HostName: datanode034
+Agent: Datanode
+Description: Success:
+

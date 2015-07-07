@@ -1,0 +1,257 @@
+Events of Trace 'A0E0E6CA8C5E6D05'
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: C4AFE602BC49D993
+OpName: getFileInfo
+StartTime: 3650294551948113
+EndTime: 3650294552095059
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=null])
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 614CDDB751DBA9EB
+OpName: RPC:getFileInfo
+StartTime: 1838243756443425
+EndTime: 1838243759193613
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=null])
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 1427E130422842B0
+OpName: create
+StartTime: 3650294568059881
+EndTime: 3650294569434478
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 614CDDB751DBA9EB
+OpName: RPC:create
+StartTime: 1838243772403881
+EndTime: 1838243774898960
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: F0892FFB7531C5A7
+OpName: addBlock
+StartTime: 3650294576393177
+EndTime: 3650294576693762
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@5abffe59])
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 614CDDB751DBA9EB
+OpName: RPC:addBlock
+StartTime: 1838243780791250
+EndTime: 1838243784633916
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@75ebad4])
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: C8429D6AE80AF5EF
+OpName: OP: new BlockReceiver
+StartTime: 1844584687473681
+EndTime: 1844584688081425
+HostAddress: 10.107.100.67
+HostName: datanode007
+Agent: Datanode
+Description: Success: return OP_STATUS_SUCCESS
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: D2C8D2B47DC24E4D
+OpName: OP: connect next Datanode
+StartTime: 3644184811327186
+EndTime: 3644184817359871
+HostAddress: 10.107.100.109
+HostName: datanode049
+Agent: Datanode
+Description: Success: connected to 10.107.100.67:50010
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: D2C8D2B47DC24E4D
+OpName: OP: new BlockReceiver
+StartTime: 3644184810762598
+EndTime: 3644184817496586
+HostAddress: 10.107.100.109
+HostName: datanode049
+Agent: Datanode
+Description: Success: return OP_STATUS_SUCCESS
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 4BC3972C77DC618B
+OpName: OP: connect next Datanode
+StartTime: 3649634401994942
+EndTime: 3649634413328473
+HostAddress: 10.107.100.69
+HostName: datanode009
+Agent: Datanode
+Description: Success: connected to 10.107.100.109:50010
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 4BC3972C77DC618B
+OpName: OP: new BlockReceiver
+StartTime: 3649634401490475
+EndTime: 3649634413452079
+HostAddress: 10.107.100.69
+HostName: datanode009
+Agent: Datanode
+Description: Success: return OP_STATUS_SUCCESS
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 614CDDB751DBA9EB
+OpName: createBlockOutputStream
+StartTime: 1838243784747210
+EndTime: 1838243830988500
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: Success: connected to 10.107.100.69:50010
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 614CDDB751DBA9EB
+OpName: nextBlockOutputStream
+StartTime: 1838243780618836
+EndTime: 1838243831173215
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: Success: create blockOutputStream for next block=blk_-532286054492378823_33835 of /user/hadoop/dir_client001_14215/localFile_1_blocks_client001_310176926
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 614CDDB751DBA9EB
+OpName: OP: send block
+StartTime: 1838243832351185
+EndTime: 1838244839607988
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: Success: sent blk_-532286054492378823_33835
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 68515E683F9C1A50
+OpName: receiveBlock
+StartTime: 1844584693275640
+EndTime: 1844585702642423
+HostAddress: 10.107.100.67
+HostName: datanode007
+Agent: Datanode
+Description: Success: received a block
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: C8429D6AE80AF5EF
+OpName: writeBlock
+StartTime: 1844584687461673
+EndTime: 1844585702751911
+HostAddress: 10.107.100.67
+HostName: datanode007
+Agent: Datanode
+Description: Success:
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 48CEDA7B3E7BF26B
+OpName: receiveBlock
+StartTime: 3644184821257284
+EndTime: 3644185833090039
+HostAddress: 10.107.100.109
+HostName: datanode049
+Agent: Datanode
+Description: Success: received a block
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: D2C8D2B47DC24E4D
+OpName: writeBlock
+StartTime: 3644184810750000
+EndTime: 3644185833281252
+HostAddress: 10.107.100.109
+HostName: datanode049
+Agent: Datanode
+Description: Success:
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 6B2A194CCF738D05
+OpName: receiveBlock
+StartTime: 3649634415734924
+EndTime: 3649635430229885
+HostAddress: 10.107.100.69
+HostName: datanode009
+Agent: Datanode
+Description: Success: received a block
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 4BC3972C77DC618B
+OpName: writeBlock
+StartTime: 3649634401478648
+EndTime: 3649635430416121
+HostAddress: 10.107.100.69
+HostName: datanode009
+Agent: Datanode
+Description: Success:
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 50683C2512C379EB
+OpName: complete
+StartTime: 3650295643392596
+EndTime: 3650295644521779
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=boolean,value=true])
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 614CDDB751DBA9EB
+OpName: RPC:complete
+StartTime: 1838244847979429
+EndTime: 1838244849852695
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=boolean,value=true])
+
+
+TraceID: A0E0E6CA8C5E6D05
+NID: 1D1592C0BC23182F
+OpName: fs -copyFromLocal
+StartTime: 1838243748750204
+EndTime: 1838244849974909
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: User
+Description: A user Trace
+
+
+

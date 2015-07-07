@@ -1,0 +1,519 @@
+Events of Trace '2FD7C62090201A7D'
+
+
+TraceID: 2FD7C62090201A7D
+NID: D800B4794ED137D8
+OpName: getFileInfo
+StartTime: 3523612473176748
+EndTime: 3523612474640176
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:getFileInfo
+StartTime: 1711561642457884
+EndTime: 1711561651593892
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 527F0016770772CB
+OpName: create
+StartTime: 3523612494219268
+EndTime: 3523612522825194
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:create
+StartTime: 1711561664218627
+EndTime: 1711561694951271
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 55F2D412C9547C09
+OpName: addBlock
+StartTime: 3523612529310303
+EndTime: 3523612531248884
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@420433c6])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:addBlock
+StartTime: 1711561699579400
+EndTime: 1711561705836208
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@5c3bb813])
+
+
+TraceID: 2FD7C62090201A7D
+NID: CBF4854E87A6BCCE
+OpName: OP: connect next Datanode
+StartTime: 1712539892352869
+EndTime: 1712539902538716
+HostAddress: 10.107.100.42
+HostName: datanode020
+Agent: Datanode
+Description: Success: connected to 10.107.100.76:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: CBF4854E87A6BCCE
+OpName: OP: new BlockReceiver
+StartTime: 1712539889112142
+EndTime: 1712539906934223
+HostAddress: 10.107.100.42
+HostName: datanode020
+Agent: Datanode
+Description: Success: return OP_STATUS_SUCCESS
+
+
+TraceID: 2FD7C62090201A7D
+NID: 6FC6F2287FCD22AA
+OpName: OP: new BlockReceiver
+StartTime: 1712071853611457
+EndTime: 1712071857210618
+HostAddress: 10.107.100.76
+HostName: datanode016
+Agent: Datanode
+Description: Success: return OP_STATUS_SUCCESS
+
+
+TraceID: 2FD7C62090201A7D
+NID: 9B4508ABC7CB04B8
+OpName: OP: connect next Datanode
+StartTime: 4004158421283922
+EndTime: 4004158445556005
+HostAddress: 10.107.100.100
+HostName: datanode040
+Agent: Datanode
+Description: Success: connected to 10.107.100.42:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: 9B4508ABC7CB04B8
+OpName: OP: new BlockReceiver
+StartTime: 4004158417575725
+EndTime: 4004158450065579
+HostAddress: 10.107.100.100
+HostName: datanode040
+Agent: Datanode
+Description: Success: return OP_STATUS_SUCCESS
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: createBlockOutputStream
+StartTime: 1711561705836208
+EndTime: 1711561774247694
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: Success: connected to 10.107.100.100:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: nextBlockOutputStream
+StartTime: 1711561699452781
+EndTime: 1711561774470982
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: Success: create blockOutputStream for next block=blk_7082452621425644509_8562 of /user/hadoop/localFile_15_blocks_client001_3180027255
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: OP: send block
+StartTime: 1711561775818302
+EndTime: 1711562687251806
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: Success: sent blk_7082452621425644509_8562
+
+
+TraceID: 2FD7C62090201A7D
+NID: AF8C316B3432A31A
+OpName: receiveBlock
+StartTime: 1712071874085663
+EndTime: 1712072785589383
+HostAddress: 10.107.100.76
+HostName: datanode016
+Agent: Datanode
+Description: Success: received a block
+
+
+TraceID: 2FD7C62090201A7D
+NID: 6FC6F2287FCD22AA
+OpName: writeBlock
+StartTime: 1712071853589489
+EndTime: 1712072786645616
+HostAddress: 10.107.100.76
+HostName: datanode016
+Agent: Datanode
+Description: Success:
+
+
+TraceID: 2FD7C62090201A7D
+NID: 31485B6F69012E90
+OpName: receiveBlock
+StartTime: 1712539916468043
+EndTime: 1712540833422013
+HostAddress: 10.107.100.42
+HostName: datanode020
+Agent: Datanode
+Description: Success: received a block
+
+
+TraceID: 2FD7C62090201A7D
+NID: CBF4854E87A6BCCE
+OpName: writeBlock
+StartTime: 1712539889091573
+EndTime: 1712540833615704
+HostAddress: 10.107.100.42
+HostName: datanode020
+Agent: Datanode
+Description: Success:
+
+
+TraceID: 2FD7C62090201A7D
+NID: DDB81107AF58F0D5
+OpName: receiveBlock
+StartTime: 4004158452541195
+EndTime: 4004159374230414
+HostAddress: 10.107.100.100
+HostName: datanode040
+Agent: Datanode
+Description: Success: received a block
+
+
+TraceID: 2FD7C62090201A7D
+NID: 9B4508ABC7CB04B8
+OpName: writeBlock
+StartTime: 4004158417547648
+EndTime: 4004159374664226
+HostAddress: 10.107.100.100
+HostName: datanode040
+Agent: Datanode
+Description: Success:
+
+
+TraceID: 2FD7C62090201A7D
+NID: 0F3A35467481F827
+OpName: addBlock
+StartTime: 3523613528107122
+EndTime: 3523613528554887
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@49e29d4b])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:addBlock
+StartTime: 1711562698716426
+EndTime: 1711562700870429
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@8d1dbef])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: createBlockOutputStream
+StartTime: 1711562700945014
+EndTime: 1711562703685959
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: IOException: java.net.ConnectException: Connection refused: failed to connect to10.107.100.62:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: 18D3D3DA6E13B834
+OpName: abandonBlock
+StartTime: 3523613534796650
+EndTime: 3523613535100370
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:abandonBlock
+StartTime: 1711562705479040
+EndTime: 1711562707231360
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 03B16096679484D0
+OpName: addBlock
+StartTime: 3523613537207378
+EndTime: 3523613537974180
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@2b36b44e])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:addBlock
+StartTime: 1711562707540041
+EndTime: 1711562710071378
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@1c62af])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 2F6FA8CB70B8D438
+OpName: OP: connect next Datanode
+StartTime: 1717257932250908
+EndTime: 1717257934363361
+HostAddress: 10.107.100.88
+HostName: datanode028
+Agent: Datanode
+Description: IOException: java.net.ConnectException: Connection refused: failed to connect to 10.107.100.67:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: 2F6FA8CB70B8D438
+OpName: writeBlock
+StartTime: 1717257927598787
+EndTime: 1717257938820066
+HostAddress: 10.107.100.88
+HostName: datanode028
+Agent: Datanode
+Description: Exception: java.net.ConnectException: Connection refused
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: createBlockOutputStream
+StartTime: 1711562710126642
+EndTime: 1711562743238474
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: IOException: java.io.IOException: Bad connect ack with firstBadLink as 10.107.100.67:50010: failed to connect to10.107.100.82:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: AF4AADF2019E1014
+OpName: OP: connect next Datanode
+StartTime: 332482552076617
+EndTime: 332482570095241
+HostAddress: 10.107.100.82
+HostName: datanode022
+Agent: Datanode
+Description: Exception: first bad link is 10.107.100.67:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: AF4AADF2019E1014
+OpName: OP: new BlockReceiver
+StartTime: 332482548594271
+EndTime: 332482574579775
+HostAddress: 10.107.100.82
+HostName: datanode022
+Agent: Datanode
+Description: ERROR: first bad link is 10.107.100.67:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: 10CD0CF016A9003B
+OpName: abandonBlock
+StartTime: 3523613572653845
+EndTime: 3523613572979590
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:abandonBlock
+StartTime: 1711562743741609
+EndTime: 1711562745046216
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: AF4AADF2019E1014
+OpName: writeBlock
+StartTime: 332482548574152
+EndTime: 332482578078435
+HostAddress: 10.107.100.82
+HostName: datanode022
+Agent: Datanode
+Description: Exception: java.io.EOFException: while trying to read 65557 bytes
+
+
+TraceID: 2FD7C62090201A7D
+NID: 3598A99FB0F4E108
+OpName: addBlock
+StartTime: 3523613574658616
+EndTime: 3523613575064406
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@323c9353])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:addBlock
+StartTime: 1711562745317359
+EndTime: 1711562747458202
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@5e1cab83])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: createBlockOutputStream
+StartTime: 1711562747513069
+EndTime: 1711562749148736
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: IOException: java.net.ConnectException: Connection refused: failed to connect to10.107.100.73:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: E139DE8D77EDDA55
+OpName: abandonBlock
+StartTime: 3523613578693890
+EndTime: 3523613578954390
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:abandonBlock
+StartTime: 1711562749562465
+EndTime: 1711562750824285
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 02CEFD0C0F936CA9
+OpName: addBlock
+StartTime: 3523613580620279
+EndTime: 3523613581143423
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@26ec47e9])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:addBlock
+StartTime: 1711562751084955
+EndTime: 1711562753225432
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.LocatedBlock,value=org.apache.hadoop.hdfs.protocol.LocatedBlock@1b60868a])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: createBlockOutputStream
+StartTime: 1711562753286853
+EndTime: 1711562755191715
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: IOException: java.net.ConnectException: Connection refused: failed to connect to10.107.100.69:50010
+
+
+TraceID: 2FD7C62090201A7D
+NID: AE5BBF06479A054B
+OpName: abandonBlock
+StartTime: 3523613584714376
+EndTime: 3523613584918361
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: RPC:abandonBlock
+StartTime: 1711562755583814
+EndTime: 1711562756750638
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=void,value=null])
+
+
+TraceID: 2FD7C62090201A7D
+NID: 7DD58EB99B4470DB
+OpName: nextBlockOutputStream
+StartTime: 1711562698531575
+EndTime: 1711562756926094
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: DFSClient
+Description: IOException: Unable to create blockOutputStream for next block=blk_3194406903757870941_8562 of /user/hadoop/localFile_15_blocks_client001_3180027255
+
+
+TraceID: 2FD7C62090201A7D
+NID: 8C7658A1FA5164E8
+OpName: fs -copyFromLocal
+StartTime: 1711561634698367
+EndTime: 1711562823025933
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: User
+Description: A user Trace
+

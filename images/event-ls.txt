@@ -1,0 +1,56 @@
+Events of Trace '87BF2ABC47B03561'
+
+
+TraceID: 87BF2ABC47B03561
+NID: 592D8928344EC7DC
+OpName: getFileInfo
+StartTime: 3650566090074390
+EndTime: 3650566090220107
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@1ed92ae])
+
+
+TraceID: 87BF2ABC47B03561
+NID: F8471CA3BED658E1
+OpName: RPC:getFileInfo
+StartTime: 1838515294583680
+EndTime: 1838515297025828
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.HdfsFileStatus,value=org.apache.hadoop.hdfs.protocol.HdfsFileStatus@57c33fcd])
+
+
+TraceID: 87BF2ABC47B03561
+NID: 241355D4ACE8134C
+OpName: getListing
+StartTime: 3650566097687615
+EndTime: 3650566097803256
+HostAddress: 10.107.100.57
+HostName: namenode
+Agent: Namenode
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.DirectoryListing,value=org.apache.hadoop.hdfs.protocol.DirectoryListing@1438de7f])
+
+
+TraceID: 87BF2ABC47B03561
+NID: F8471CA3BED658E1
+OpName: RPC:getListing
+StartTime: 1838515302275976
+EndTime: 1838515303862300
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: RPC Client
+Description: Success: return(OW[class=class org.apache.hadoop.hdfs.protocol.DirectoryListing,value=org.apache.hadoop.hdfs.protocol.DirectoryListing@33ceccbd])
+
+
+TraceID: 87BF2ABC47B03561
+NID: 2830F12399F73AE0
+OpName: fs -ls
+StartTime: 1838515289779924
+EndTime: 1838515306525549
+HostAddress: 10.107.100.112
+HostName: client001
+Agent: User
+Description: A user Trace
