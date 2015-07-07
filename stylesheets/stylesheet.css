@@ -30,9 +30,14 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption,
 footer, header, hgroup, menu, nav, section {
   display: block;
+}
+
+figure{
+  display: block;
+margin: 0 auto;
 }
 
 ol, ul {
