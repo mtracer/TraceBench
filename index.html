@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<HTML>
-<head>
-<meta charset='utf-8'>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="TraceBench : An open data set for trace-oriented monitoring">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>TraceBench</title>
-</head>
-<BODY>
-<h1 align='center'>Welcome to TraceBench! (<a href='http://www.wsdream.net/mtracer-viz/'>Try it</a>)</h1>
-<hr/>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mtracer/TraceBench">View on GitHub</a>
+
+          <h1 id="project_title">TraceBench</h1>
+          <h2 id="project_tagline">An open data set for trace-oriented monitoring</h2>
+
+        
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+	  
 <div>&bull;&nbsp;<a href="#Overview"> Overview </a></div>
 <div>&bull;&nbsp;<a href="#Download"> Download </a></div>
 <div>&bull;&nbsp;<a href="#start"> Getting Start </a></div>
@@ -35,7 +52,7 @@
 <div> TraceBench is freely available. If you use TraceBench in you work, please cite our paper (<a href='images/JingwenZhou-CloudCom-2014.pdf'>pdf</a>&nbsp;<a href='images/JingwenZhou-CloudCom-2014.pptx'>slides</a>) using following reference.</div>
 
 <table border=1 cellspacing=0 cellpadding=3>
-<tr><td>&bull;&nbsp;Jingwen Zhou, Zhenbang Chen, Ji Wang, Zibin Zheng, and Michael R. Lyu, "TraceBench: An open data set for trace-oriented monitoring," in Proceedings of the 6th IEEE International Conference on Cloud Computing Technology and Science (CloudCom 2014), pp. 519®C526. IEEE Computer Society, 2014. DOI: 10.1109/CloudCom.2014.79</td></tr>
+<tr><td>&bull;&nbsp;Jingwen Zhou, Zhenbang Chen, Ji Wang, Zibin Zheng, and Michael R. Lyu, "TraceBench: An open data set for trace-oriented monitoring," in Proceedings of the 6th IEEE International Conference on Cloud Computing Technology and Science (CloudCom 2014), pp. 519‚Äì526. IEEE Computer Society, 2014. DOI: 10.1109/CloudCom.2014.79</td></tr>
 </table>
 <div>or</div>
 <table border=1 cellspacing=0 cellpadding=3>
@@ -45,7 +62,7 @@
 <div>author={Jingwen Zhou, Zhenbang Chen, Ji Wang, Zibin Zheng, and Michael R. Lyu},</div>
 <div>booktitle={Proceedings of the 6th IEEE International Conference on Cloud Computing Technology and Science (CloudCom 2014)},</div>
 <div>publisher={IEEE Computer Society},</div>
-<div>pages={519®C526},</div>
+<div>pages={519‚Äì526},</div>
 <div>year={2014},</div>
 <div>url={http://mtracer.github.io/TraceBench/},</div>
 <div>doi={10.1109/CloudCom.2014.79},</div>
@@ -54,43 +71,6 @@
 </table>
 
 <p> Download TraceBench (<a class="zip_download_link" href="https://github.com/mtracer/TraceBench/zipball/master">zip</a>, <a class="tar_download_link" href="https://github.com/mtracer/TraceBench/tarball/master">tar.gz</a>). Maybe you also need <a href='http://mtracer.github.io/MTracer-Viz/'>MTracer-Viz</a> for visualization.</p>
-
-
-<!--
-<script language="javascript" type="text/javascript">
-function download()
-{
-	var name=document.getElementById("name");
-	var affiliation=document.getElementById("affiliation");
-	var others=document.getElementById("others");
-	if(name.value==""){
-		alert("Please input your name");
-		return;
-	}
-	if(affiliation.value==""){
-		alert("Please input your affiliation");
-		return;
-	}
-	
-
-	
-	
-	
-	window.location.href="http://www.baidu.com";	
-}
-</script>
-<hr>
-<p></p><div>Please fill in the following fields, and then download TraceBench.</div>
-<div>The information is for statistical use and will be protected rigorously.</div>
-<div class="downloader_info">
-<form method="get" name="searchForm">
-	<dt>Name <input id="name"/>*</dt>
-	<dt>Affiliation <input id="affiliation" style="width:400"/>*</dt>
-	<dt>Other words you want to say:</dt><dt><textarea id="others" cols="70" rows="5" ></textarea></dt>
-	<input style="width:180" type="button" value="Submit and download" onclick="download()"/>
-</form>
--->
-
 
 
 
@@ -188,7 +168,7 @@ The computational complexity of the construction procss is O(nm+n<sup>2</sup>/m)
 <tr><td>Bug </td><td>rwrpc</td><td>1,2,3</td></tr>
 <tr><td>Multiple (Mul)</td><td>AnarchyApe (AA)</td><td>rwrpc</td><td>1,2,3</td></tr>
 </table>
-<p> In TraceBench, we name a set of traces according to the items of the columns in the table, i.e., °∞[Class](_[Type](_[Fault](_[Workload](_[Variable])?)?)?)?°± in the form of the regular expression, where the words means the sets of items appeared in corresponding columns of the table. In addition, abbreviations given in the brackets in the table are used for compressing the names. As an example, the trace set named as Normal_Clientload_-_r, or NM_CL_r for short, contains the traces collected under the workload r in the Clientload type of Normal class. </p>
+<p> In TraceBench, we name a set of traces according to the items of the columns in the table, i.e., ‚Äú[Class](_[Type](_[Fault](_[Workload](_[Variable])?)?)?)?‚Äù in the form of the regular expression, where the words means the sets of items appeared in corresponding columns of the table. In addition, abbreviations given in the brackets in the table are used for compressing the names. As an example, the trace set named as Normal_Clientload_-_r, or NM_CL_r for short, contains the traces collected under the workload r in the Clientload type of Normal class. </p>
 <br>
 
 <a name="Environment"></a><br>
@@ -203,7 +183,7 @@ The computational complexity of the construction procss is O(nm+n<sup>2</sup>/m)
 <div>&bull;&nbsp;<a href='http://mtracer.github.io/MTracer/'>MTracer</a> Server: receiving, storing and visualizing traces generated when HDFS processes the requests from clients.</div>
 <div>&bull;&nbsp;Controller: controlling the whole process of collection, and also being in charge of injecting faults.</div>
 <div>&bull;&nbsp;<a href='http://ganglia.info/'>Ganglia</a> Server [4]: monitoring the whole environment, to help for solving the unexpected issues in collection, like VMs are shut down by accident.</div>
-<div> The MTracer Server is deployed on a VM with 4 GB memory and 8 °¡ 1 GHz CPU, while all the rest hosts are deployed on the VMs with 2 GB memory and 4 °¡ 1 GHz CPU. The OS that all the VMs use is CentOS 6.3.</div>
+<div> The MTracer Server is deployed on a VM with 4 GB memory and 8 √ó 1 GHz CPU, while all the rest hosts are deployed on the VMs with 2 GB memory and 4 √ó 1 GHz CPU. The OS that all the VMs use is CentOS 6.3.</div>
 <br>
 
 <a name="Workload"></a><br>
@@ -257,20 +237,4 @@ The computational complexity of the construction procss is O(nm+n<sup>2</sup>/m)
 <div>&bull;&nbsp;<a href='http://www.zibinzheng.com/'>Zibin Zheng</a>: Associate Research Fellow, Shenzhen Research Institute, The Chinese University of Hong Kong, Shenzhen, China</div>
 <div>&bull;&nbsp;<a href='http://www.cse.cuhk.edu.hk/lyu/'>Michael R. Lyu</a>: Professor, Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong, China</div>
 </BODY>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</html>
