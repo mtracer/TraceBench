@@ -1,0 +1,112 @@
+------------------------start--------------------------
+faultType = corruptBlk
+StartTime = 2013-11-13 15:28:58
+/home/hadoop/controller_bash/ape-corruptDN.sh 21 30 blk
+FinishTime = 2013-11-13 15:29:36
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = corruptBlk
+StartTime = 2013-11-13 15:34:48
+/home/hadoop/controller_bash/ape-corruptDN.sh 11 20 blk
+FinishTime = 2013-11-13 15:35:20
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = suspendDN
+ape -R datanode020 -s datanode
+StartTime = 2013-11-13 15:42:08
+EndTime = 2013-11-13 15:47:29
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = corruptBlk
+StartTime = 2013-11-13 15:54:11
+/home/hadoop/controller_bash/ape-corruptDN.sh 11 20 blk
+FinishTime = 2013-11-13 15:55:14
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = panicDN
+ssh root@localhost ape -R datanode048,datanode047,datanode010,datanode005,datanode015 -P
+StartTime = 2013-11-13 16:00:20
+EndTime = 2013.11.13 16:09:30   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = suspendDN
+ape -R datanode008,datanode017,datanode011,datanode043 -s datanode
+StartTime = 2013-11-13 16:12:00
+EndTime = 2013-11-13 16:17:47
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowDN
+ssh root@localhost ape -R datanode043 -S 47 337
+StartTime = 2013-11-13 16:22:58
+EndTime = 2013-11-13 16:28:36
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = cutMeta
+StartTime = 2013-11-13 16:33:38
+/home/hadoop/controller_bash/ape-cutDN.sh 21 30 meta
+FinishTime = 2013-11-13 16:34:00
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowHDFS
+/home/hadoop/controller_bash/ape-slowHDFS.sh 46 331
+StartTime = 2013-11-13 16:40:36
+EndTime = 2013-11-13 16:46:12
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = suspendDN
+ape -R datanode019,datanode034 -s datanode
+StartTime = 2013-11-13 16:51:29
+EndTime = 2013-11-13 16:56:32
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = panicDN
+ssh root@localhost ape -R datanode048,datanode010 -P
+StartTime = 2013-11-13 17:02:52
+EndTime = 2013-11-13 17:11:41   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = killDN
+ape -R datanode014,datanode012 -k datanode
+StartTime = 2013-11-13 17:14:18
+EndTime = 2013-11-13 17:21:04
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = readOnlyDN
+ssh root@localhost ape -R datanode039,datanode014,datanode043 -r
+StartTime = 2013-11-13 17:26:05
+EndTime = 2013-11-13 17:34:13   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = corruptMeta
+StartTime = 2013-11-13 17:36:32
+/home/hadoop/controller_bash/ape-corruptDN.sh 21 30 meta
+FinishTime = 2013-11-13 17:37:04
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossBlk
+StartTime = 2013-11-13 17:43:35
+/home/hadoop/controller_bash/ape-lossDN.sh 1 10 blk
+FinishTime = 2013-11-13 17:43:48
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = cutBlk
+StartTime = 2013-11-13 17:50:12
+/home/hadoop/controller_bash/ape-cutDN.sh 21 30 blk
+FinishTime = 2013-11-13 17:50:26
+-------------------------end---------------------------
+

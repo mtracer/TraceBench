@@ -1,0 +1,99 @@
+------------------------start--------------------------
+faultType = disconnectDN
+ssh root@localhost ape -R datanode050,datanode040,datanode025,datanode005 -d 354
+StartTime = 2013-11-13 09:48:39
+EndTime = 2013-11-13 09:55:05
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowHDFS
+/home/hadoop/controller_bash/ape-slowHDFS.sh 36 405
+StartTime = 2013-11-13 10:00:05
+EndTime = 2013-11-13 10:06:55
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = panicDN
+ssh root@localhost ape -R datanode024,datanode033,datanode029 -P
+StartTime = 2013-11-13 10:11:55
+EndTime = 2013-11-13 10:17:47   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = cutMeta
+StartTime = 2013-11-13 10:23:23
+/home/hadoop/controller_bash/ape-cutDN.sh 41 50 meta
+FinishTime = 2013-11-13 10:23:44
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = disconnectDN
+ssh root@localhost ape -R datanode021,datanode023,datanode049,datanode027 -d 362
+StartTime = 2013-11-13 10:30:30
+EndTime = 2013-11-13 10:37:04
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = cutMeta
+StartTime = 2013-11-13 10:43:15
+/home/hadoop/controller_bash/ape-cutDN.sh 1 10 meta
+FinishTime = 2013-11-13 10:43:30
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowHDFS
+/home/hadoop/controller_bash/ape-slowHDFS.sh 45 341
+StartTime = 2013-11-13 10:48:49
+EndTime = 2013-11-13 10:54:35
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = panicDN
+ssh root@localhost ape -R datanode013,datanode002 -P
+StartTime = 2013-11-13 11:00:04
+EndTime = 2013-11-13 11:04:08   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowDN
+ssh root@localhost ape -R datanode003,datanode041,datanode015,datanode032 -S 35 408
+StartTime = 2013-11-13 11:11:31
+EndTime = 2013-11-13 11:18:20
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = panicDN
+ssh root@localhost ape -R datanode034,datanode018,datanode015,datanode019,datanode011 -P
+StartTime = 2013-11-13 11:23:23
+EndTime = 2013-11-13 11:32:25    //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowDN
+ssh root@localhost ape -R datanode046,datanode045,datanode027 -S 35 387
+StartTime = 2013-11-13 11:34:49
+EndTime = 2013-11-13 11:41:17
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = killDN
+ape -R datanode015,datanode038,datanode034 -k datanode
+StartTime = 2013-11-13 11:46:31
+EndTime = 2013-11-13 11:53:25
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = disconnectDN
+ssh root@localhost ape -R datanode023,datanode040,datanode008 -d 366
+StartTime = 2013-11-13 12:00:04
+EndTime = 2013-11-13 12:06:31
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossMeta
+StartTime = 2013-11-13 12:12:03
+/home/hadoop/controller_bash/ape-lossDN.sh 21 30 meta
+FinishTime = 2013-11-13 12:12:16
+-------------------------end---------------------------
+
+
