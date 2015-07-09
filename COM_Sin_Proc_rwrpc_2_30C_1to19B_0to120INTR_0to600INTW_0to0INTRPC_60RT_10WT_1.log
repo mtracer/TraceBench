@@ -1,0 +1,35 @@
+------------------------start--------------------------
+faultType = killDN
+ape -R datanode014 -k datanode
+StartTime = 2013-11-13 22:21:44
+EndTime = 2013-11-13 22:28:13
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = suspendDN
+ape -R datanode023,datanode010 -s datanode
+StartTime = 2013-11-13 22:34:35
+EndTime = 2013-11-13 22:39:54
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = suspendDN
+ape -R datanode019,datanode037 -s datanode
+StartTime = 2013-11-13 22:45:04
+EndTime = 2013-11-13 22:50:35
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = killDN
+ape -R datanode042,datanode018,datanode013,datanode034,datanode040 -k datanode
+StartTime = 2013-11-13 22:56:54
+EndTime = 2013-11-13 23:03:43
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = suspendDN
+ape -R datanode036,datanode045,datanode002 -s datanode
+StartTime = 2013-11-13 23:09:04
+EndTime = 2013-11-13 23:15:15
+-------------------------end---------------------------
+

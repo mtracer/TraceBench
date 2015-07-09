@@ -1,0 +1,32 @@
+------------------------start--------------------------
+faultType = disconnectDN
+ssh root@localhost ape -R datanode024,datanode010,datanode025,datanode047,datanode007 -d 408
+StartTime = 2013-11-14 01:58:51
+EndTime = 2013-11-14 02:05:48
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowHDFS
+/home/hadoop/controller_bash/ape-slowHDFS.sh 30 324
+StartTime = 2013-11-14 02:12:12
+EndTime = 2013-11-14 02:17:41
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowDN
+ssh root@localhost ape -R datanode023 -S 32 322
+StartTime = 2013-11-14 02:24:14
+EndTime = 2013-11-14 02:29:37
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowDN
+ssh root@localhost ape -R datanode039 -S 47 404
+StartTime = 2013-11-14 02:35:06
+EndTime = 2013-11-14 02:41:51
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowHDFS
+/home/hadoop/controller_bash/ape-slowHDFS.sh 38 365
+StartTime = 2013-11-14 02:48:39
