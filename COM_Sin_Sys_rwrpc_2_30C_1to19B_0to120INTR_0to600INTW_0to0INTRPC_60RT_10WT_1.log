@@ -1,0 +1,33 @@
+------------------------start--------------------------
+faultType = panicDN
+ssh root@localhost ape -R datanode024,datanode045,datanode036,datanode003,datanode019 -P
+StartTime = 2013-11-13 19:54:16
+EndTime = 2013-11-13 20:02:43   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = deadDN
+ssh root@localhost ape -R datanode042 -F
+StartTime = 2013-11-13 20:05:51
+EndTime = 2013-11-13 20:12:16   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = readOnlyDN
+ssh root@localhost ape -R datanode022,datanode041 -r
+StartTime = 2013-11-13 20:16:30
+EndTime = 2013-11-13 20:23:49   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = panicDN
+ssh root@localhost ape -R datanode034 -P
+StartTime = 2013-11-13 20:28:47
+EndTime = 2013-11-13 20:34:50   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = deadDN
+ssh root@localhost ape -R datanode015,datanode003,datanode050 -F
+StartTime = 2013-11-13 20:42:11
+EndTime = 2013-11-13 20:47:26   //manual
