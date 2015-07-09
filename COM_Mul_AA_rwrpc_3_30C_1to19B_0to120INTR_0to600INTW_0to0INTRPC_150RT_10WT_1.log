@@ -1,0 +1,112 @@
+------------------------start--------------------------
+faultType = suspendDN
+ape -R datanode019 -s datanode
+StartTime = 2013-11-13 12:36:11
+EndTime = 2013-11-13 12:41:31
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossBlk
+StartTime = 2013-11-13 12:46:57
+/home/hadoop/controller_bash/ape-lossDN.sh 11 20 blk
+FinishTime = 2013-11-13 12:47:14
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = cutBlk
+StartTime = 2013-11-13 12:53:00
+/home/hadoop/controller_bash/ape-cutDN.sh 11 20 blk
+FinishTime = 2013-11-13 12:53:22
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = corruptBlk
+StartTime = 2013-11-13 12:58:59
+/home/hadoop/controller_bash/ape-corruptDN.sh 41 50 blk
+FinishTime = 2013-11-13 12:59:38
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowDN
+ssh root@localhost ape -R datanode038 -S 36 366
+StartTime = 2013-11-13 13:05:04
+EndTime = 2013-11-13 13:11:26
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossBlk
+StartTime = 2013-11-13 13:17:40
+/home/hadoop/controller_bash/ape-lossDN.sh 1 10 blk
+FinishTime = 2013-11-13 13:17:55
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossMeta
+StartTime = 2013-11-13 13:23:37
+/home/hadoop/controller_bash/ape-lossDN.sh 41 50 meta
+FinishTime = 2013-11-13 13:24:13
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = readOnlyDN
+ssh root@localhost ape -R datanode013,datanode034,datanode003 -r
+StartTime = 2013-11-13 13:30:33
+EndTime = 2013-11-13 13:39:18 //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = deadDN
+ssh root@localhost ape -R datanode050,datanode043,datanode011 -F
+StartTime = 2013-11-13 13:42:17
+EndTime = 2013-11-13 13:49:46   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = panicDN
+ssh root@localhost ape -R datanode006,datanode015,datanode011 -P
+StartTime = 2013-11-13 13:53:29
+EndTime = 2013-11-13 13:59:02   //manual
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = killDN
+ape -R datanode045,datanode018,datanode009 -k datanode
+StartTime = 2013-11-13 14:04:54
+EndTime = 2013-11-13 14:11:03
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossMeta
+StartTime = 2013-11-13 14:16:07
+/home/hadoop/controller_bash/ape-lossDN.sh 11 20 meta
+FinishTime = 2013-11-13 14:16:30
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = suspendDN
+ape -R datanode025,datanode004 -s datanode
+StartTime = 2013-11-13 14:21:44
+EndTime = 2013-11-13 14:27:48
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossMeta
+StartTime = 2013-11-13 14:32:55
+/home/hadoop/controller_bash/ape-lossDN.sh 21 30 meta
+FinishTime = 2013-11-13 14:33:17
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowDN
+ssh root@localhost ape -R datanode019 -S 44 319
+StartTime = 2013-11-13 14:38:59
+EndTime = 2013-11-13 14:44:19
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = slowDN
+ssh root@localhost ape -R datanode032,datanode026,datanode044,datanode030 -S 48 398
+StartTime = 2013-11-13 14:49:56
+EndTime = 2013-11-13 14:56:35
+-------------------------end---------------------------
+

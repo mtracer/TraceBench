@@ -1,0 +1,70 @@
+------------------------start--------------------------
+faultType = corruptBlk
+StartTime = 2013-11-14 05:37:19
+/home/hadoop/controller_bash/ape-corruptDN.sh 41 50 blk
+FinishTime = 2013-11-14 05:37:56
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = corruptMeta
+StartTime = 2013-11-14 05:43:36
+/home/hadoop/controller_bash/ape-corruptDN.sh 41 50 meta
+FinishTime = 2013-11-14 05:43:56
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossBlk
+StartTime = 2013-11-14 05:49:38
+/home/hadoop/controller_bash/ape-lossDN.sh 21 30 blk
+FinishTime = 2013-11-14 05:50:05
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossMeta
+StartTime = 2013-11-14 05:55:07
+/home/hadoop/controller_bash/ape-lossDN.sh 21 30 meta
+FinishTime = 2013-11-14 05:55:33
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = cutBlk
+StartTime = 2013-11-14 06:01:20
+/home/hadoop/controller_bash/ape-cutDN.sh 31 40 blk
+FinishTime = 2013-11-14 06:01:47
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = cutMeta
+StartTime = 2013-11-14 06:07:32
+/home/hadoop/controller_bash/ape-cutDN.sh 41 50 meta
+FinishTime = 2013-11-14 06:07:45
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = corruptMeta
+StartTime = 2013-11-14 06:13:13
+/home/hadoop/controller_bash/ape-corruptDN.sh 41 50 meta
+FinishTime = 2013-11-14 06:13:55
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = cutMeta
+StartTime = 2013-11-14 06:19:13
+/home/hadoop/controller_bash/ape-cutDN.sh 1 10 meta
+FinishTime = 2013-11-14 06:19:22
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = lossMeta
+StartTime = 2013-11-14 06:24:32
+/home/hadoop/controller_bash/ape-lossDN.sh 21 30 meta
+FinishTime = 2013-11-14 06:24:54
+-------------------------end---------------------------
+
+------------------------start--------------------------
+faultType = corruptMeta
+StartTime = 2013-11-14 06:30:19
+/home/hadoop/controller_bash/ape-corruptDN.sh 21 30 meta
+FinishTime = 2013-11-14 06:30:43
+-------------------------end---------------------------
+
